@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24121" started-at="2022-03-24T11:18:45 IST" finished-at="2022-03-24T11:19:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24121" started-at="2022-03-24T11:18:45 IST" finished-at="2022-03-24T11:19:10 IST">
+      <class name="API_test.herokuapp">
+        <test-method status="PASS" signature="login()[pri:1, instance:API_test.herokuapp@1bf4b8b]" name="login" duration-ms="13160" started-at="2022-03-24T11:18:46 IST" finished-at="2022-03-24T11:18:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="get_all_orders()[pri:2, instance:API_test.herokuapp@1bf4b8b]" name="get_all_orders" duration-ms="3040" started-at="2022-03-24T11:18:59 IST" finished-at="2022-03-24T11:19:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_orders -->
+        <test-method status="PASS" signature="create_order()[pri:3, instance:API_test.herokuapp@1bf4b8b]" name="create_order" duration-ms="2104" started-at="2022-03-24T11:19:02 IST" finished-at="2022-03-24T11:19:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_order -->
+        <test-method status="PASS" signature="get_order_by_id()[pri:4, instance:API_test.herokuapp@1bf4b8b]" name="get_order_by_id" duration-ms="2016" started-at="2022-03-24T11:19:04 IST" finished-at="2022-03-24T11:19:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_order_by_id -->
+        <test-method status="PASS" signature="update_order_by_id()[pri:4, instance:API_test.herokuapp@1bf4b8b]" name="update_order_by_id" duration-ms="1667" started-at="2022-03-24T11:19:06 IST" finished-at="2022-03-24T11:19:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_order_by_id -->
+        <test-method status="PASS" signature="delete()[pri:5, instance:API_test.herokuapp@1bf4b8b]" name="delete" duration-ms="1619" started-at="2022-03-24T11:19:08 IST" finished-at="2022-03-24T11:19:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- API_test.herokuapp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
